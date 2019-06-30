@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		96A3BDDC22C874D200DBBCA8 /* MainNavController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A3BDDB22C874D200DBBCA8 /* MainNavController.swift */; };
+		96A3BDDE22C878B800DBBCA8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96A3BDDD22C878B800DBBCA8 /* LoginViewController.swift */; };
 		96EC3C8622C6E17E00DB2017 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EC3C8522C6E17E00DB2017 /* AppDelegate.swift */; };
 		96EC3C8822C6E17E00DB2017 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 96EC3C8722C6E17E00DB2017 /* ViewController.swift */; };
 		96EC3C8B22C6E17E00DB2017 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 96EC3C8922C6E17E00DB2017 /* Main.storyboard */; };
@@ -34,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		96A3BDDB22C874D200DBBCA8 /* MainNavController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainNavController.swift; sourceTree = "<group>"; };
+		96A3BDDD22C878B800DBBCA8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		96EC3C8222C6E17E00DB2017 /* LearnSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LearnSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		96EC3C8522C6E17E00DB2017 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		96EC3C8722C6E17E00DB2017 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +107,8 @@
 				96EC3C8C22C6E17E00DB2017 /* Assets.xcassets */,
 				96EC3C8E22C6E17E00DB2017 /* LaunchScreen.storyboard */,
 				96EC3C9122C6E17E00DB2017 /* Info.plist */,
+				96A3BDDB22C874D200DBBCA8 /* MainNavController.swift */,
+				96A3BDDD22C878B800DBBCA8 /* LoginViewController.swift */,
 			);
 			path = LearnSwift;
 			sourceTree = "<group>";
@@ -256,7 +262,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				96A3BDDE22C878B800DBBCA8 /* LoginViewController.swift in Sources */,
 				96EC3C8822C6E17E00DB2017 /* ViewController.swift in Sources */,
+				96A3BDDC22C874D200DBBCA8 /* MainNavController.swift in Sources */,
 				96EC3C8622C6E17E00DB2017 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
